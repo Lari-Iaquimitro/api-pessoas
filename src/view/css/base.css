@@ -16,6 +16,12 @@ body{
     flex-direction: row;
     justify-content: space-around;
     width: 80vw;
+
+    margin:  0 auto;
+}
+h1{
+    margin: auto;
+    color: var(--cor1);
 }
 
 .geral{
@@ -28,8 +34,8 @@ body{
     margin: 10px;
     margin-left: 10vw;
 
-    background-color: #3c5c9c;
-    color: #fbebec;
+    background-color: var(--cor1);
+    color: var(--cor2);
 }
 input{
     height: 6vh;
@@ -69,8 +75,8 @@ input{
 }
 button{
     width: 10vw;
-    background-color:#fbebec;
-    color: #3c5c9c;
+    background-color: var(--cor2);
+    color: var(--cor1);
     font-size: 30px ;
     border-radius: 30px;
 }
