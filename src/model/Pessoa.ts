@@ -150,12 +150,12 @@ export class Pessoa {
 
     public mostraPessoa() {
         console.log(`Nome: ${this.nome}
-CPF: ${this.cpf}
-Data: ${this.data_nascimento}
-Telefone: ${this.telefone}
-Endereço: ${this.endereco}
-Altura: ${this.altura}
-Peso: ${this.peso}`);
+                     CPF: ${this.cpf}
+                     Data: ${this.data_nascimento}
+                     Telefone: ${this.telefone}
+                     Endereço: ${this.endereco}
+                     Altura: ${this.altura}
+                     Peso: ${this.peso}`);
     }
 
     //implementar métodos
@@ -187,5 +187,13 @@ Peso: ${this.peso}`);
 
     public comerPrato(_prato: string) {
         console.log(`${this.nome} está comendo ${_prato}.`);
+    }
+
+    /**
+     * CRUD
+     */
+    public cadastroPessoa(clovileu: Pessoa) {
+        console.log(`${clovileu.nome} cadastro com sucesso!`);
+        
     }
 }

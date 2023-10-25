@@ -135,12 +135,12 @@ class Pessoa {
     }
     mostraPessoa() {
         console.log(`Nome: ${this.nome}
-CPF: ${this.cpf}
-Data: ${this.data_nascimento}
-Telefone: ${this.telefone}
-Endereço: ${this.endereco}
-Altura: ${this.altura}
-Peso: ${this.peso}`);
+                     CPF: ${this.cpf}
+                     Data: ${this.data_nascimento}
+                     Telefone: ${this.telefone}
+                     Endereço: ${this.endereco}
+                     Altura: ${this.altura}
+                     Peso: ${this.peso}`);
     }
     //implementar métodos
     falar() {
@@ -165,6 +165,12 @@ Peso: ${this.peso}`);
     }
     comerPrato(_prato) {
         console.log(`${this.nome} está comendo ${_prato}.`);
+    }
+    /**
+     * CRUD
+     */
+    cadastroPessoa(clovileu) {
+        console.log(`${clovileu.nome} cadastro com sucesso`);
     }
 }
 exports.Pessoa = Pessoa;
