@@ -170,7 +170,7 @@ class Pessoa {
      * CRUD
      */
     cadastroPessoa(clovileu) {
-        console.log(`${clovileu.nome} cadastro com sucesso`);
+        console.log(`${clovileu.nome} cadastro com sucesso!`);
     }
 }
 exports.Pessoa = Pessoa;
